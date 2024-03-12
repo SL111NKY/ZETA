@@ -71,7 +71,7 @@
     font-size: 30px;
     color: var(--black-color);
   }
-  /*
+  
   .login-header::before {
     content: "";
     position: absolute;
@@ -95,7 +95,7 @@
     background: transparent;
     box-shadow: -15px 0 0 0 var(--primary-color); /* Removed space before --primary-color */
   }
-  */
+  
   .input_box {
     position: relative;
     display: flex;
