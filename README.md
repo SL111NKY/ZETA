@@ -30,7 +30,7 @@ reference: php/utils
 
 ```php
 include('loader.php');
-include('nav.php')
+include('nav.php');
 
 # returns 'true' or 'false'
 function updateDB ($table, $attr, $value, $cond) {
