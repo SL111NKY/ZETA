@@ -16,10 +16,8 @@ Following [technologies](https://www.geeksforgeeks.org/web-technology/) are used
 
 ## Features / Protections
 + Sign Up
-+ Password reset (done in a secure and friendly manner)
 + Mail Validation (ensure user has access to the email they used to make the account)
 + CSRF protection for all features/forms
-+ Account Deletion
 + All features are protected from SQL Injection using PHP prepared statements
 + XSS protection (see video for how to impliment when adding your own pages with untrusted data on them)
 + All passwords are hashed so that even with access to the database attackers could not obtain users password
@@ -27,11 +25,12 @@ Following [technologies](https://www.geeksforgeeks.org/web-technology/) are used
 + ... possibly more that I did not think of at the time of writing this
 ## Essential Functions
 ```bash
-test reference: utils.php
+reference: php/utils
 ```
 
 ```php
-require('utils.php')
+include('loader.php');
+include('nav.php')
 
 # returns 'true' or 'false'
 function updateDB ($table, $attr, $value, $cond) {
