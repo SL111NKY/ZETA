@@ -1,6 +1,6 @@
 # ZETA NETWORTH MANAGEMENT
 
-Zeta is a central web application for managing assets and finances.
+Central ZETA web application
 
 ## Technologies used
 
