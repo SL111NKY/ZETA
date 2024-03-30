@@ -1,5 +1,4 @@
-# ZETA NETWORTH MANAGEMENT
-
+# ZZZETA
 Central ZETA web application
 
 ## Technologies used
