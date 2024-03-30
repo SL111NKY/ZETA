@@ -1,7 +1,7 @@
 # ZZZETA
 Central ZETA web application
 
-## Technologies used
+## Technologies
 
 Following [technologies](https://www.geeksforgeeks.org/web-technology/) are used:
 + HTML
@@ -22,7 +22,8 @@ Following [technologies](https://www.geeksforgeeks.org/web-technology/) are used
 + All passwords are hashed so that even with access to the database attackers could not obtain users password
 + Login (protected against brute force/dictionary attacks)
 + ... possibly more that I did not think of at the time of writing this
-## Essential Functions
+
+## Additional Functions
 ```bash
 reference: php/utils
 ```
