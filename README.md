@@ -4,7 +4,7 @@ Central ZETA web application
 
 ## Technologies used
 
-Following [technologies](https://www.geeksforgeeks.org/web-technology/) are used.
+Following [technologies](https://www.geeksforgeeks.org/web-technology/) are used:
 + HTML
 + CSS
 + JS
