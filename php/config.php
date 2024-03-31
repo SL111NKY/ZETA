@@ -1,9 +1,9 @@
 <?php
 // Change this to your connection info.
-$DATABASE_HOST = '10.35.232.176:3306';
-$DATABASE_USER = 'k230243_dbowner';
-$DATABASE_PASS = '2q02Ds2*z';
-$DATABASE_NAME = 'k230243_db';
+$DATABASE_HOST = '-';
+$DATABASE_USER = '-';
+$DATABASE_PASS = '-';
+$DATABASE_NAME = '-';
 // Try and connect using the info above.
 $con = mysqli_connect($DATABASE_HOST, $DATABASE_USER, $DATABASE_PASS, $DATABASE_NAME);
 
