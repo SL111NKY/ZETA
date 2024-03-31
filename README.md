@@ -2,7 +2,7 @@
 Central ZETA web application
 
 ## Technologies
-
+NO FRAMEWORKS ARE USED.
 Following [technologies](https://www.geeksforgeeks.org/web-technology/) are used:
 + HTML
 + CSS
