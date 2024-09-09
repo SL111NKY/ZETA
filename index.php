@@ -2,18 +2,20 @@
   <head>
     <link rel="stylesheet" href="css/styles.css">
     <link rel="icon" type="image/x-icon" href="/images/favicon/favicon.ico">
-	 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
 	<script src="js/loader.js"></script>	
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/particles.js/1.0.0/particles.min.js" integrity="sha512-zSXd15DNZUoXEVLbyfTa1XQFk33vi7CcJzPHdBh/7Y3NEEec+l/eBhg2RGgRutwQVfrt9EnBmrYzn6d3NxGG1w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
   </head>
 	<body>
-	<?php include('php/loader.php'); ?>
-  <div class="wrapper login">
-	  <img id="logo" class="hithere" src="images/logo/logo.png">
+	<div id="tsparticles"></div>
+		<?php include('php/loader.php'); ?>
+ 		 <div class="wrapper login">
+	 	 <img id="logo" class="hithere" src="images/logo/logo.png">
 	  		<span class="sp sp-t"></span>
 			<span class="sp sp-r"></span>
 			<span class="sp sp-b"></span>
 			<span class="sp sp-l"></span>
-	  
+
 		  <form novalidate="novalidate" method="POST" action="/php/auth.php">
 			<div class="login_box" id="login">
 			  <div class="input_box">
